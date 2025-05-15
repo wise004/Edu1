@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025704"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "issueDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "certificateUrl",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Certificate",
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "courseProgress",
+      "relationshipName": "courseProgress",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

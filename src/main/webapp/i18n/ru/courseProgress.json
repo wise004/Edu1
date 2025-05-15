@@ -1,0 +1,28 @@
+{
+  "onlineCoursePlatformApp": {
+    "courseProgress": {
+      "home": {
+        "title": "Course Progresses",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Course Progress",
+        "createOrEditLabel": "Создать или отредактировать Course Progress",
+        "notFound": "Course Progresses не найдено"
+      },
+      "created": "Новый Course Progress создан с идентификатором { param }",
+      "updated": "Course Progress обновлен с идентификатором { param }",
+      "deleted": "Course Progress удален с идентификатором { param }",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Course Progress { id }?"
+      },
+      "detail": {
+        "title": "Course Progress"
+      },
+      "id": "ID",
+      "completedItems": "Completed Items",
+      "isCompleted": "Is Completed",
+      "student": "Student",
+      "course": "Course",
+      "certificate": "Certificate"
+    }
+  }
+}

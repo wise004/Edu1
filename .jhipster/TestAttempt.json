@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025710"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "score",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "passed",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "attemptDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "TestAttempt",
+  "relationships": [
+    {
+      "otherEntityField": "username",
+      "otherEntityName": "user",
+      "relationshipName": "student",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "courseItem",
+      "relationshipName": "courseItem",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

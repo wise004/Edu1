@@ -1,0 +1,27 @@
+{
+  "onlineCoursePlatformApp": {
+    "lessonProgress": {
+      "home": {
+        "title": "Lesson Progresses",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Lesson Progress",
+        "createOrEditLabel": "Создать или отредактировать Lesson Progress",
+        "notFound": "Lesson Progresses не найдено"
+      },
+      "created": "Новый Lesson Progress создан с идентификатором { param }",
+      "updated": "Lesson Progress обновлен с идентификатором { param }",
+      "deleted": "Lesson Progress удален с идентификатором { param }",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Lesson Progress { id }?"
+      },
+      "detail": {
+        "title": "Lesson Progress"
+      },
+      "id": "ID",
+      "viewed": "Viewed",
+      "viewedDate": "Viewed Date",
+      "student": "Student",
+      "courseItem": "Course Item"
+    }
+  }
+}

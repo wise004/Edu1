@@ -1,0 +1,29 @@
+{
+  "onlineCoursePlatformApp": {
+    "courseItem": {
+      "home": {
+        "title": "Course Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Course Item qo`shish",
+        "createOrEditLabel": "Course Itemni tahrirlash",
+        "notFound": "No Course Items found"
+      },
+      "created": "Course Item { param } bilan qo`shildi",
+      "updated": "{ param }- Course Item saqlandi",
+      "deleted": "{ param }- Course Item o`chirildi",
+      "delete": {
+        "question": "{ id }- Course Itemni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Course Item"
+      },
+      "id": "ID",
+      "title": "Title",
+      "itemType": "Item Type",
+      "contentType": "Content Type",
+      "content": "Content",
+      "passingScore": "Passing Score",
+      "course": "Course"
+    }
+  }
+}

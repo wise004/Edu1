@@ -1,0 +1,43 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025706"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "itemType",
+      "fieldType": "ItemType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "LESSON,TEST"
+    },
+    {
+      "fieldName": "contentType",
+      "fieldType": "ContentType",
+      "fieldValues": "UPLOADED_VIDEO,YOUTUBE_VIDEO,TEXT"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "passingScore",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "CourseItem",
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "course",
+      "relationshipName": "course",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

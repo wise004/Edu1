@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/@fortawesome/free-solid-svg-icons/faBan.js"],
+  "sourcesContent": ["'use strict';\nObject.defineProperty(exports, '__esModule', { value: true });\nvar prefix = 'fas';\nvar iconName = 'ban';\nvar width = 512;\nvar height = 512;\nvar aliases = [128683,\"cancel\"];\nvar unicode = 'f05e';\nvar svgPathData = 'M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z';\n\nexports.definition = {\n  prefix: prefix,\n  iconName: iconName,\n  icon: [\n    width,\n    height,\n    aliases,\n    unicode,\n    svgPathData\n  ]};\n\nexports.faBan = exports.definition;\nexports.prefix = prefix;\nexports.iconName = iconName;\nexports.width = width;\nexports.height = height;\nexports.ligatures = aliases;\nexports.unicode = unicode;\nexports.svgPathData = svgPathData;\nexports.aliases = aliases;"],
+  "mappings": ";;;;;AAAA;AAAA;AACA,WAAO,eAAe,SAAS,cAAc,EAAE,OAAO,KAAK,CAAC;AAC5D,QAAI,SAAS;AACb,QAAI,WAAW;AACf,QAAI,QAAQ;AACZ,QAAI,SAAS;AACb,QAAI,UAAU,CAAC,QAAO,QAAQ;AAC9B,QAAI,UAAU;AACd,QAAI,cAAc;AAElB,YAAQ,aAAa;AAAA,MACnB;AAAA,MACA;AAAA,MACA,MAAM;AAAA,QACJ;AAAA,QACA;AAAA,QACA;AAAA,QACA;AAAA,QACA;AAAA,MACF;AAAA,IAAC;AAEH,YAAQ,QAAQ,QAAQ;AACxB,YAAQ,SAAS;AACjB,YAAQ,WAAW;AACnB,YAAQ,QAAQ;AAChB,YAAQ,SAAS;AACjB,YAAQ,YAAY;AACpB,YAAQ,UAAU;AAClB,YAAQ,cAAc;AACtB,YAAQ,UAAU;AAAA;AAAA;",
+  "names": []
+}

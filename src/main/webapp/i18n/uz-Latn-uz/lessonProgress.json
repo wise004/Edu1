@@ -1,0 +1,27 @@
+{
+  "onlineCoursePlatformApp": {
+    "lessonProgress": {
+      "home": {
+        "title": "Lesson Progresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Lesson Progress qo`shish",
+        "createOrEditLabel": "Lesson Progressni tahrirlash",
+        "notFound": "No Lesson Progresses found"
+      },
+      "created": "Lesson Progress { param } bilan qo`shildi",
+      "updated": "{ param }- Lesson Progress saqlandi",
+      "deleted": "{ param }- Lesson Progress o`chirildi",
+      "delete": {
+        "question": "{ id }- Lesson Progressni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Lesson Progress"
+      },
+      "id": "ID",
+      "viewed": "Viewed",
+      "viewedDate": "Viewed Date",
+      "student": "Student",
+      "courseItem": "Course Item"
+    }
+  }
+}

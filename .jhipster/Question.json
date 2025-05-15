@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025709"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "text",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "QuestionType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "SINGLE_CHOICE,MULTIPLE_CHOICE"
+    },
+    {
+      "fieldName": "options",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Question",
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "courseItem",
+      "relationshipName": "courseItem",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

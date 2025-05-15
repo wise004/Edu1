@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025708"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "viewed",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "viewedDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "LessonProgress",
+  "relationships": [
+    {
+      "otherEntityField": "username",
+      "otherEntityName": "user",
+      "relationshipName": "student",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "courseItem",
+      "relationshipName": "courseItem",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

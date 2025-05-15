@@ -1,0 +1,54 @@
+✅ 1. JAVA_HOME ni tekshirish
+Siz System Variables da JAVA_HOME ni to‘g‘ri o‘rnatgansiz (C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot). Lekin PowerShell hali ham eski JAVA_HOME qiymatini (C:\Program Files\Java\jdk-20.0.2) ishlatyapti.
+
+Tekshirish uchun quyidagini bajaring:
+powershell
+Copy
+Edit
+[System.Environment]::GetEnvironmentVariable("JAVA_HOME", "Machine")
+✅ Kutish kerak bo‘lgan natija:
+
+plaintext
+Copy
+Edit
+C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+Agar bu noto‘g‘ri yo‘l (C:\Program Files\Java\jdk-20.0.2) ni ko‘rsatsa, o‘zgartirishlar qo‘llanmagan bo‘lishi mumkin.
+
+✅ 2. PowerShell oynasini qayta ishga tushiring yoki kompyuterni qayta yuklang
+JAVA_HOME ni to‘g‘ri o‘rnatganingizdan keyin, o‘zgarishlar qo‘llanilishi uchun PowerShell oynasini yopib oching yoki kompyuteringizni qayta yuklang.
+
+So‘ngra yana tekshirib ko‘ring:
+
+powershell
+Copy
+Edit
+echo $env:JAVA_HOME
+✅ Kutish kerak bo‘lgan natija:
+
+plaintext
+Copy
+Edit
+C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+✅ 3. JAVA_HOME ni sessiya uchun yangilash (kompyuter qayta yuklanmaguncha ishlaydi)
+Agar kompyuterni qayta yuklashni xohlamasangiz, PowerShell sessiyasida JAVA_HOME ni vaqtincha o‘zgartirish mumkin:
+
+powershell
+Copy
+Edit
+$env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot"
+$env:Path += ";$env:JAVA_HOME\bin"
+So‘ng quyidagini bajaring:
+
+powershell
+Copy
+Edit
+echo $env:JAVA_HOME
+Agar natija C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot bo‘lsa, endi mvnw ni ishga tushirib ko‘ring.
+
+✅ 4. mvnw ni qayta ishga tushirish
+Endi PowerShell oynasida mvnw ni ishga tushiring:
+
+powershell
+Copy
+Edit
+./mvnw

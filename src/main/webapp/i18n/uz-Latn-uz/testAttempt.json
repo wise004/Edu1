@@ -1,0 +1,28 @@
+{
+  "onlineCoursePlatformApp": {
+    "testAttempt": {
+      "home": {
+        "title": "Test Attempts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Test Attempt qo`shish",
+        "createOrEditLabel": "Test Attemptni tahrirlash",
+        "notFound": "No Test Attempts found"
+      },
+      "created": "Test Attempt { param } bilan qo`shildi",
+      "updated": "{ param }- Test Attempt saqlandi",
+      "deleted": "{ param }- Test Attempt o`chirildi",
+      "delete": {
+        "question": "{ id }- Test Attemptni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Test Attempt"
+      },
+      "id": "ID",
+      "score": "Score",
+      "passed": "Passed",
+      "attemptDate": "Attempt Date",
+      "student": "Student",
+      "courseItem": "Course Item"
+    }
+  }
+}

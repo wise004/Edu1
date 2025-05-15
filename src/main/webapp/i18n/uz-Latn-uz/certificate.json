@@ -1,0 +1,26 @@
+{
+  "onlineCoursePlatformApp": {
+    "certificate": {
+      "home": {
+        "title": "Certificates",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Certificate qo`shish",
+        "createOrEditLabel": "Certificateni tahrirlash",
+        "notFound": "No Certificates found"
+      },
+      "created": "Certificate { param } bilan qo`shildi",
+      "updated": "{ param }- Certificate saqlandi",
+      "deleted": "{ param }- Certificate o`chirildi",
+      "delete": {
+        "question": "{ id }- Certificateni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Certificate"
+      },
+      "id": "ID",
+      "issueDate": "Issue Date",
+      "certificateUrl": "Certificate Url",
+      "courseProgress": "Course Progress"
+    }
+  }
+}

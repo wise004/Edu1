@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Xush kelibsiz!",
+    "subtitle": "O‘zingizga mos kurslarni toping va bilim oling.",
+    "loading": "Kurslar yuklanmoqda...",
+    "noCourses": "Hozirda kurslar mavjud emas.",
+    "course": {
+      "free": "Bepul",
+      "youtubeVideos": "YouTube Videolar",
+      "noVideos": "Ushbu kursda YouTube videolar mavjud emas.",
+      "noItems": "Ushbu kursda hech qanday elementlar mavjud emas.",
+      "invalidVideoUrl": "YouTube video URL noto‘g‘ri: {url}",
+      "startButton": "Boshlash"
+    },
+    "careerQuiz": {
+      "title": "Kasbingizni aniqlang!",
+      "description": "Bepul test orqali o‘zingizga mos keladigan karyera yo‘lini toping.",
+      "button": "Testini Boshlash SI "
+    },
+    "ieltsWriting": {
+      "title": "IELTS Writing Test bilan yozuv mahoratingizni sinab ko‘ring!",
+      "description": "Bepul test orqali IELTS Writing ko‘nikmalaringizni baholang va o‘zingizni takomillashtiring.",
+      "button": "Testini Boshlash SI "
+    }
+  }
+}

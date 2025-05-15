@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 85c12d8e716c2a77e405a4141dd45c9ebc54cf36 Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747212477 +0500	clone: from https://github.com/MarufMamatqulov/Edu.git
+85c12d8e716c2a77e405a4141dd45c9ebc54cf36 855b5dde95342b03ff9be1d3aef17500ba8230da Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747220657 +0500	commit: feat: initial changes
+855b5dde95342b03ff9be1d3aef17500ba8230da 7fdbb1f53bf0ffe9bab51d9b01a7d6d45427bcab Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747296212 +0500	commit: fix: update API endpoints and improve error handling
+7fdbb1f53bf0ffe9bab51d9b01a7d6d45427bcab 64f301787593c5a0e01c60b95482c30619642b0b Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747297913 +0500	commit: feat: add course fetching logic and conditional IELTS button display
+64f301787593c5a0e01c60b95482c30619642b0b 56e3b05b72396defe1984b396eb4225a12d23300 Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747301812 +0500	commit: feat: implement YouTube video modal and update button labels
+56e3b05b72396defe1984b396eb4225a12d23300 94947964ba129e4f7342b34d71ec2f01849c4b3f Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747305456 +0500	commit: fix: update API paths to use absolute URLs in user management service
+94947964ba129e4f7342b34d71ec2f01849c4b3f b082638d50cf1339536d59b82801f581cb292217 Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747305661 +0500	commit: fix: update API paths to use absolute URLs across services and components
+b082638d50cf1339536d59b82801f581cb292217 15089257939697966526a3b4b82277b252bdefd7 Rahmonov Shohboz <rakhmonovshope0110@mail.ru> 1747306400 +0500	commit: fix: update API paths to use absolute URLs in configuration, health, logs, and metrics services

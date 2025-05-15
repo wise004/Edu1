@@ -1,0 +1,29 @@
+{
+  "onlineCoursePlatformApp": {
+    "courseItem": {
+      "home": {
+        "title": "Course Items",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Course Item",
+        "createOrEditLabel": "Создать или отредактировать Course Item",
+        "notFound": "Course Items не найдено"
+      },
+      "created": "Новый Course Item создан с идентификатором { param }",
+      "updated": "Course Item обновлен с идентификатором { param }",
+      "deleted": "Course Item удален с идентификатором { param }",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Course Item { id }?"
+      },
+      "detail": {
+        "title": "Course Item"
+      },
+      "id": "ID",
+      "title": "Title",
+      "itemType": "Item Type",
+      "contentType": "Content Type",
+      "content": "Content",
+      "passingScore": "Passing Score",
+      "course": "Course"
+    }
+  }
+}

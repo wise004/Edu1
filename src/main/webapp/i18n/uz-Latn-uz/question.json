@@ -1,0 +1,27 @@
+{
+  "onlineCoursePlatformApp": {
+    "question": {
+      "home": {
+        "title": "Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Question qo`shish",
+        "createOrEditLabel": "Questionni tahrirlash",
+        "notFound": "No Questions found"
+      },
+      "created": "Question { param } bilan qo`shildi",
+      "updated": "{ param }- Question saqlandi",
+      "deleted": "{ param }- Question o`chirildi",
+      "delete": {
+        "question": "{ id }- Questionni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Question"
+      },
+      "id": "ID",
+      "text": "Text",
+      "type": "Type",
+      "options": "Options",
+      "courseItem": "Course Item"
+    }
+  }
+}

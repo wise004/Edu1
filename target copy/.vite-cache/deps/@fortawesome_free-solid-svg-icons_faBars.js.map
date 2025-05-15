@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/@fortawesome/free-solid-svg-icons/faBars.js"],
+  "sourcesContent": ["'use strict';\nObject.defineProperty(exports, '__esModule', { value: true });\nvar prefix = 'fas';\nvar iconName = 'bars';\nvar width = 448;\nvar height = 512;\nvar aliases = [\"navicon\"];\nvar unicode = 'f0c9';\nvar svgPathData = 'M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z';\n\nexports.definition = {\n  prefix: prefix,\n  iconName: iconName,\n  icon: [\n    width,\n    height,\n    aliases,\n    unicode,\n    svgPathData\n  ]};\n\nexports.faBars = exports.definition;\nexports.prefix = prefix;\nexports.iconName = iconName;\nexports.width = width;\nexports.height = height;\nexports.ligatures = aliases;\nexports.unicode = unicode;\nexports.svgPathData = svgPathData;\nexports.aliases = aliases;"],
+  "mappings": ";;;;;AAAA;AAAA;AACA,WAAO,eAAe,SAAS,cAAc,EAAE,OAAO,KAAK,CAAC;AAC5D,QAAI,SAAS;AACb,QAAI,WAAW;AACf,QAAI,QAAQ;AACZ,QAAI,SAAS;AACb,QAAI,UAAU,CAAC,SAAS;AACxB,QAAI,UAAU;AACd,QAAI,cAAc;AAElB,YAAQ,aAAa;AAAA,MACnB;AAAA,MACA;AAAA,MACA,MAAM;AAAA,QACJ;AAAA,QACA;AAAA,QACA;AAAA,QACA;AAAA,QACA;AAAA,MACF;AAAA,IAAC;AAEH,YAAQ,SAAS,QAAQ;AACzB,YAAQ,SAAS;AACjB,YAAQ,WAAW;AACnB,YAAQ,QAAQ;AAChB,YAAQ,SAAS;AACjB,YAAQ,YAAY;AACpB,YAAQ,UAAU;AAClB,YAAQ,cAAc;AACtB,YAAQ,UAAU;AAAA;AAAA;",
+  "names": []
+}

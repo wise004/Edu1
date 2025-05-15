@@ -1,0 +1,34 @@
+{
+  "annotations": {
+    "changelogDate": "20250312025707"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "completedItems",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "isCompleted",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "CourseProgress",
+  "relationships": [
+    {
+      "otherEntityField": "username",
+      "otherEntityName": "user",
+      "relationshipName": "student",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "course",
+      "relationshipName": "course",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

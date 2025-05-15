@@ -1,0 +1,26 @@
+{
+  "onlineCoursePlatformApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Course qo`shish",
+        "createOrEditLabel": "Courseni tahrirlash",
+        "notFound": "No Courses found"
+      },
+      "created": "Course { param } bilan qo`shildi",
+      "updated": "{ param }- Course saqlandi",
+      "deleted": "{ param }- Course o`chirildi",
+      "delete": {
+        "question": "{ id }- Courseni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "author": "Author"
+    }
+  }
+}

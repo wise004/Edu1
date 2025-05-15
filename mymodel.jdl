@@ -1,0 +1,108 @@
+// User entity
+entity User {
+  username String required,
+  email String required,
+  password String required,
+  role UserRole required
+}
+
+enum UserRole {
+  STUDENT, TRAINER, ADMIN
+}
+
+// Course entity
+entity Course {
+  title String required,
+  description String
+}
+
+// Relationship: Course - User (author)
+relationship ManyToOne {
+  Course{author(username)} to User
+}
+
+// CourseItem entity
+entity CourseItem {
+  title String required,
+  itemType ItemType required,
+  contentType ContentType,
+  content String,
+  passingScore Integer
+}
+
+enum ItemType {
+  LESSON, TEST
+}
+
+enum ContentType {
+  UPLOADED_VIDEO, YOUTUBE_VIDEO, TEXT
+}
+
+// Relationship: CourseItem - Course
+relationship ManyToOne {
+  CourseItem{course(title)} to Course
+}
+
+// Question entity
+entity Question {
+  text String required,
+  type QuestionType required,
+  options String required
+}
+
+enum QuestionType {
+  SINGLE_CHOICE, MULTIPLE_CHOICE
+}
+
+// Relationship: Question - CourseItem
+relationship ManyToOne {
+  Question{courseItem(title)} to CourseItem
+}
+
+// LessonProgress entity
+entity LessonProgress {
+  viewed Boolean required,
+  viewedDate Instant
+}
+
+// Relationship: LessonProgress - User and CourseItem
+relationship ManyToOne {
+  LessonProgress{student(username)} to User,
+  LessonProgress{courseItem(title)} to CourseItem
+}
+
+// TestAttempt entity
+entity TestAttempt {
+  score Integer,
+  passed Boolean,
+  attemptDate Instant
+}
+
+// Relationship: TestAttempt - User and CourseItem
+relationship ManyToOne {
+  TestAttempt{student(username)} to User,
+  TestAttempt{courseItem(title)} to CourseItem
+}
+
+// CourseProgress entity
+entity CourseProgress {
+  completedItems Integer,
+  isCompleted Boolean
+}
+
+// Relationship: CourseProgress - User and Course
+relationship ManyToOne {
+  CourseProgress{student(username)} to User,
+  CourseProgress{course(title)} to Course
+}
+
+// Certificate entity
+entity Certificate {
+  issueDate Instant required,
+  certificateUrl String
+}
+
+// Relationship: Certificate - CourseProgress
+relationship OneToOne {
+  Certificate{courseProgress(id)} to CourseProgress
+}

@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Welcome!",
+    "subtitle": "Find courses that suit you and gain knowledge.",
+    "loading": "Loading courses...",
+    "noCourses": "No courses available at the moment.",
+    "course": {
+      "free": "Free",
+      "youtubeVideos": "YouTube Videos",
+      "noVideos": "This course does not have any YouTube videos.",
+      "noItems": "This course does not have any items.",
+      "invalidVideoUrl": "Invalid YouTube video URL: {url}",
+      "startButton": "Start"
+    },
+    "careerQuiz": {
+      "title": "Discover Your Career!",
+      "description": "Take a free test to find the career path that suits you.",
+      "button": "Start AI Test"
+    },
+    "ieltsWriting": {
+      "title": "Test Your Writing Skills with IELTS Writing Test!",
+      "description": "Evaluate your IELTS Writing skills with a free test and improve your abilities.",
+      "button": "Start AI Test"
+    }
+  }
+}

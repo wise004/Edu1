@@ -1,0 +1,28 @@
+{
+  "onlineCoursePlatformApp": {
+    "courseProgress": {
+      "home": {
+        "title": "Course Progresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Course Progress",
+        "createOrEditLabel": "Create or edit a Course Progress",
+        "notFound": "No Course Progresses found"
+      },
+      "created": "A new Course Progress is created with identifier { param }",
+      "updated": "A Course Progress is updated with identifier { param }",
+      "deleted": "A Course Progress is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Course Progress { id }?"
+      },
+      "detail": {
+        "title": "Course Progress"
+      },
+      "id": "ID",
+      "completedItems": "Completed Items",
+      "isCompleted": "Is Completed",
+      "student": "Student",
+      "course": "Course",
+      "certificate": "Certificate"
+    }
+  }
+}

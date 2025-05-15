@@ -1,0 +1,9 @@
+{
+  "onlineCoursePlatformApp": {
+    "ItemType": {
+      "null": "",
+      "LESSON": "LESSON",
+      "TEST": "TEST"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "onlineCoursePlatformApp": {
+    "testAttempt": {
+      "home": {
+        "title": "Test Attempts",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Test Attempt",
+        "createOrEditLabel": "Создать или отредактировать Test Attempt",
+        "notFound": "Test Attempts не найдено"
+      },
+      "created": "Новый Test Attempt создан с идентификатором { param }",
+      "updated": "Test Attempt обновлен с идентификатором { param }",
+      "deleted": "Test Attempt удален с идентификатором { param }",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Test Attempt { id }?"
+      },
+      "detail": {
+        "title": "Test Attempt"
+      },
+      "id": "ID",
+      "score": "Score",
+      "passed": "Passed",
+      "attemptDate": "Attempt Date",
+      "student": "Student",
+      "courseItem": "Course Item"
+    }
+  }
+}

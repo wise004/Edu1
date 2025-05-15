@@ -1,0 +1,7 @@
+export enum ContentType {
+  UPLOADED_VIDEO = 'UPLOADED_VIDEO',
+
+  YOUTUBE_VIDEO = 'YOUTUBE_VIDEO',
+
+  TEXT = 'TEXT',
+}

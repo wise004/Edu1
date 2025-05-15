@@ -1,0 +1,28 @@
+{
+  "onlineCoursePlatformApp": {
+    "courseProgress": {
+      "home": {
+        "title": "Course Progresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Course Progress qo`shish",
+        "createOrEditLabel": "Course Progressni tahrirlash",
+        "notFound": "No Course Progresses found"
+      },
+      "created": "Course Progress { param } bilan qo`shildi",
+      "updated": "{ param }- Course Progress saqlandi",
+      "deleted": "{ param }- Course Progress o`chirildi",
+      "delete": {
+        "question": "{ id }- Course Progressni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Course Progress"
+      },
+      "id": "ID",
+      "completedItems": "Completed Items",
+      "isCompleted": "Is Completed",
+      "student": "Student",
+      "course": "Course",
+      "certificate": "Certificate"
+    }
+  }
+}
