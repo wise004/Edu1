@@ -51,14 +51,20 @@ const config = defineConfig({
   server: {
     host: true,
     port: 9000,
-    proxy: Object.fromEntries(
-      ['/api', '/management', '/v3/api-docs'].map(res => [
-        res,
-        {
-          target: 'http://localhost:8080',
-        },
-      ]),
-    ),
+    proxy: {
+      '/api': {
+        target: 'http://13.53.190.127:7777',
+        changeOrigin: true,
+      },
+      '/management': {
+        target: 'http://13.53.190.127:7777',
+        changeOrigin: true,
+      },
+      '/v3/api-docs': {
+        target: 'http://13.53.190.127:7777',
+        changeOrigin: true,
+      },
+    },
   },
 });
 
